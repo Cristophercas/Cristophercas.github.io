@@ -243,7 +243,7 @@ body{
     gap:18px;
 }
 .inicio-contenido{
-   max-width: 760px;
+    width: 100%;
 }
 
 .inicio h2{
@@ -662,3 +662,4 @@ body{
   }
 
 }
+
