@@ -459,6 +459,19 @@ body{
     outline-offset: 2px; 
 }
 
+.contacto-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* dos columnas: datos y mapa */
+  gap: 20px;
+  align-items: start;
+}
+
+.mapa-iframe {
+  width: 100%;
+  height: 300px; /* altura fija para que no se vea demasiado pequeño */
+  border: none;
+}
+
 /* Responsive */
 @media (max-width: 980px){
 .tarjetas-servicios{
@@ -640,4 +653,12 @@ body{
   .nav-links:focus-within { 
     height: 0 !important; 
 }
+.contacto-grid {
+    grid-template-columns: 1fr; /* una sola columna */
+  }
+
+.mapa-iframe {
+    height: 250px; /* ajusta la altura en móviles */
+  }
+
 }
